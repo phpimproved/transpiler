@@ -1,0 +1,20 @@
+{
+    "name": "phpi/transpiler",
+    "description": "The transpiler for phpi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angelo Giuffredi",
+            "email": "agiuffredi@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Phpi\\Transpiler\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
