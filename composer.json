@@ -1,6 +1,6 @@
 {
-  "name": "phpi/transpiler",
-  "description": "The transpiler for phpi",
+  "name": "phpimproved/transpiler",
+  "description": "The transpiler for phpimproved",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -11,7 +11,7 @@
   ],
   "autoload" : {
     "psr-4": {
-      "Phpi\\Transpiler\\" : "src/"
+      "Phpimproved\\Transpiler\\" : "src/"
     }
   },
   "require": {
